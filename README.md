@@ -1,0 +1,2 @@
+# tradix
+Trading simulation prototype
