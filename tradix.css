@@ -1,0 +1,160 @@
+.box {
+    border-style:solid;
+    border-width:1px;
+    border-color:#6699FF;
+}
+
+.toolbar {
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 80px;
+   text-align: center;
+   background-color: #ffe4c4;
+}
+
+.stat {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    color: #202020;
+    font-size: 1.1em;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.landscape {
+    position: absolute; 
+    top: 80px;
+    left: 0px;
+    float: left;
+    width: 100%;
+}
+
+.timer {
+    display: table;
+    margin: 0 auto;
+    font-size: 200%;
+    color: #666666;
+    text-shadow: 2px 2px #AAAAAA;
+}
+
+.trade-button {
+    display: table;
+    margin: 0 auto;
+    color: #666666;
+    font-size: 200%;
+}
+
+.prop {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #2E9AFE;
+    border-radius:15px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 10px;
+} 
+
+.base {
+    position: static;
+    float: left;
+    width:calc(100% / 5.04);
+    border-style:solid;
+    border-width:1px;
+    border-color:#6699FF;
+    overflow: hidden;
+}
+
+.base-red {
+    background-color: #FFB2B2;
+}
+.base-blue {
+    background-color: #CCD6F5; 
+}
+.base-green {
+    background-color: #CCEBD6;
+}
+.base-yellow {
+    background-color: #FFFFCC;
+}
+.base-gray {
+    background-color: #dddddd;
+}
+.log {
+    font-size: 0.75em;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.bar-container {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+
+.stake {
+    position: fixed;
+    bottom: 36px;
+    width: 120px;
+    height: 0px;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    background: #6fb2e5;
+    box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
+    -o-box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
+    -webkit-box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
+    -moz-box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
+}
+
+
+.stake-even {
+    position: fixed;
+    bottom: 36px;
+    width: 120px;
+    height: 0px;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    background: #f5d26f;
+    box-shadow: 0 1px 5px #aa6100, inset 0 10px 20px #fff9b6;
+    -o-box-shadow: 0 1px 5px #aa6100, inset 0 10px 20px #fff9b6;
+    -webkit-box-shadow: 0 1px 5px #aa6100, inset 0 10px 20px #fff9b6;
+    -moz-box-shadow: 0 1px 5px #aa6100, inset 0 10px 20px #fff9b6;
+}
+
+.stake-max {
+    position: fixed;
+    bottom: 36px;
+    width: 120px;
+    height: 0px;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    background: #fa6040;
+    box-shadow: 0 1px 5px #ff61aa, inset 0 10px 20px #ffa0a0;
+    -o-box-shadow: 0 1px 5px #ff61aa, inset 0 10px 20px #ffc0c0;
+    -webkit-box-shadow: 0 1px 5px #ff61aa, inset 0 10px 20px #ffc0c0;
+    -moz-box-shadow: 0 1px 5px #ff61aa, inset 0 10px 20px #ffc0c0;
+}
+
+.bank {
+    position: fixed;
+    bottom: 2px;
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    background: #e5b26f;
+    box-shadow: 0 1px 5px #aa6100, inset 0 10px 20px #fff9b6;
+    -o-box-shadow: 0 1px 5px #aa6100, inset 0 10px 20px #fff9b6;
+    -webkit-box-shadow: 0 1px 5px #aa6100, inset 0 10px 20px #fff9b6;
+    -moz-box-shadow: 0 1px 5px #aa6100, inset 0 10px 20px #fff9b6;
+}
+
